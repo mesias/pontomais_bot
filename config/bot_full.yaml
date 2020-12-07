@@ -1,0 +1,16 @@
+selenium:
+  chrome_binary_path: "C:\\Users\\ALEMANE\\App\\Chromium\\bin\\chrome.exe"
+  driver_executable: "chromedriver"
+  wait_delay: 10.0
+
+pontomais:
+  login:
+    user: "<CPF>"
+    pass: "<SENHA>"
+  urls:
+    base: "https://app.pontomaisweb.com.br/#"
+    login: "/acessar"
+    ponto: "/meu_ponto/registro_de_ponto"
+  elements:
+    register_button_xpath: "//button[@class='btn btn-primary ng-binding ng-scope']"
+    registar_modal_xpath: "//div[@class='modal-content']"
