@@ -45,3 +45,5 @@ nodeLanguageServer.*/**
 # especific
 log
 screenshot
+venv
+venv/**
